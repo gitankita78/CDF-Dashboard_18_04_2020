@@ -1,0 +1,4 @@
+2020-04-18 18:20:42,493 [28] ERROR Admin_Executive_candidate_details - Page_Load -67 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_Executive_candidate_details.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Running CDF-Dashboard20_03_2020\CDF-Dashboard_14_04_2020(excutivetask)\Admin\Executive\candidate-details.aspx.cs:line 49 
+ 

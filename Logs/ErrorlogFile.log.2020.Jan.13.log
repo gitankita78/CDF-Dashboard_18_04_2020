@@ -1,0 +1,33 @@
+2020-01-13 13:13:01,006 [80] ERROR CDFMaster - Page_Load -49 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\admin-master.master.cs:line 16 
+ 
+2020-01-13 14:12:24,579 [41] ERROR Admin_training_batch - Page_Load -42 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'tblCDFLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\training-batch.aspx.cs:line 34
+ClientConnectionId:5c3a7e2e-993a-4dec-a81d-6704c4aa7c01
+Error Number:208,State:1,Class:16 
+ 
+2020-01-13 14:12:25,009 [41] ERROR Admin_training_batch - Page_Load -57 
+ System.Web.HttpException (0x80004005): A field or property with the name 'cdflevel' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\training-batch.aspx.cs:line 52 
+ 

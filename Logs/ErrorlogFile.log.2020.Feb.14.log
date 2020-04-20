@@ -1,0 +1,160 @@
+2020-02-14 10:35:38,891 [23] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 
+2020-02-14 10:35:38,898 [22] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 
+2020-02-14 10:35:53,107 [21] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:565e4051-b356-47eb-8ddf-781916a8a065
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 10:51:55,384 [20] ERROR home1 - Page_Load -134 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\home1.aspx.cs:line 128 
+ 
+2020-02-14 10:52:03,297 [20] ERROR home1 - Page_Load -134 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\home1.aspx.cs:line 128 
+ 
+2020-02-14 11:20:14,218 [26] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:47e681da-bf91-4bc8-8eb5-5c87fe1d4c98
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 11:49:01,876 [28] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:5461706e-7240-49e2-b4e4-4257e4bc6050
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 11:49:49,396 [28] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:5461706e-7240-49e2-b4e4-4257e4bc6050
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 11:56:41,970 [29] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:e1834cdb-4eed-451a-a190-4246af14a731
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 12:09:08,913 [7] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:599ab881-3020-4d58-a942-a621dd200a1a
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 12:09:53,170 [20] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:599ab881-3020-4d58-a942-a621dd200a1a
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 12:14:14,769 [32] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:599ab881-3020-4d58-a942-a621dd200a1a
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 12:24:54,715 [25] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\CDFMaster.master.cs:line 37 
+ 
+2020-02-14 12:26:02,889 [7] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 
+2020-02-14 12:28:58,368 [32] ERROR home1 - Page_Load -134 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\home1.aspx.cs:line 128 
+ 
+2020-02-14 12:36:50,388 [20] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:6d71526c-1238-4bac-8610-d08e56f3b627
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 12:37:01,674 [31] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:6d71526c-1238-4bac-8610-d08e56f3b627
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 12:44:22,307 [27] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:14e71c87-855d-4d2f-abcd-17d425ea4290
+Error Number:207,State:1,Class:16 
+ 
+2020-02-14 12:48:17,483 [21] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 
+2020-02-14 12:48:17,487 [34] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 
+2020-02-14 12:48:32,375 [28] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 
+2020-02-14 12:48:32,375 [29] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 
+2020-02-14 12:48:48,508 [28] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 
+2020-02-14 12:48:48,514 [29] ERROR data_context - sendemail -61 
+ System.ArgumentException: The parameter 'address' cannot be an empty string.
+Parameter name: address
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at data_context.sendemail(String to, String cc, String bcc, String subject, String body) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-13-02-2020\App_Code\data_context.cs:line 41 
+ 

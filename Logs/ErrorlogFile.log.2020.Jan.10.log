@@ -1,0 +1,61 @@
+2020-01-10 11:16:51,035 [25] ERROR candidatedetails - Page_Load -67 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 49 
+ 
+2020-01-10 11:19:29,824 [24] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:1c7a3328-0e41-46fa-81fd-4842b309e074
+Error Number:207,State:1,Class:16 
+ 
+2020-01-10 11:21:40,632 [6] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:1c7a3328-0e41-46fa-81fd-4842b309e074
+Error Number:207,State:1,Class:16 
+ 
+2020-01-10 11:31:40,997 [18] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:18e9b1e4-ccaa-46f5-8151-12cc294523c1
+Error Number:207,State:1,Class:16 
+ 
+2020-01-10 12:43:08,392 [35] ERROR Admin_training_batch - Page_Load -42 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'tblCDFLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\training-batch.aspx.cs:line 34
+ClientConnectionId:e28d5614-d959-4b60-82df-991c6d6ad85c
+Error Number:208,State:1,Class:16 
+ 
+2020-01-10 12:43:08,621 [35] ERROR Admin_training_batch - Page_Load -57 
+ System.Web.HttpException (0x80004005): A field or property with the name 'cdflevel' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\training-batch.aspx.cs:line 52 
+ 
+2020-01-10 13:00:14,209 [25] ERROR Admin_ExportData_training_batches - BindGridView -134 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 291
+   at Admin_ExportData_training_batches.BindGridView() in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\ExportData\training-batches.aspx.cs:line 127
+ClientConnectionId:b7f2d09f-ffaf-4bb2-a70a-9f667afcdd1d
+Error Number:207,State:1,Class:16 
+ 

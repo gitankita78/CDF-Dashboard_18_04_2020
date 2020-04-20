@@ -1,0 +1,118 @@
+2019-12-30 10:20:20,514 [9] ERROR login - btn_login_Click -140 
+ System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at login.btn_login_Click(Object sender, EventArgs e) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\login.aspx.cs:line 73 
+ 
+2019-12-30 11:09:22,296 [22] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 11:09:22,296 [11] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 11:09:23,184 [15] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 11:09:39,074 [8] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 11:09:39,760 [27] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 11:46:34,869 [28] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 11:46:39,517 [28] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 11:46:39,517 [49] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 11:46:55,334 [46] ERROR Search_InstituteSearch - select_subcourse -169 
+ System.ArgumentOutOfRangeException: 'ddl_subconame' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at Search_InstituteSearch.select_subcourse(String strcmd) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 163 
+ 
+2019-12-30 12:46:49,055 [6] ERROR Search_InstituteSearch - addcity_state -219 
+ System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.) ---> System.ComponentModel.Win32Exception (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at dal.getDataSet(String strProcName, String[,] inParam) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\App_Code\Proto\dal.cs:line 603
+   at Search_InstituteSearch.addcity_state() in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 190
+ClientConnectionId:a4fd046c-0a1e-4579-8c0d-2ff7728a70c9
+Error Number:10054,State:0,Class:20 
+ 
+2019-12-30 13:03:41,688 [6] ERROR Search_entrancedetail - Page_Load -64 
+ System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Search_entrancedetail.Page_Load(Object sender, EventArgs e) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\entrancedetail.aspx.cs:line 51 
+ 
+2019-12-30 13:16:31,712 [32] ERROR Search_InstituteSearch - addcity_state -219 
+ System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - The specified network name is no longer available.) ---> System.ComponentModel.Win32Exception (0x80004005): The specified network name is no longer available
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at dal.getDataSet(String strProcName, String[,] inParam) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\App_Code\Proto\dal.cs:line 554
+   at Search_InstituteSearch.addcity_state() in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\InstituteSearch.aspx.cs:line 190
+ClientConnectionId:064e0000-ce69-46d3-9aff-aeecd530d607
+Error Number:64,State:0,Class:20 
+ 
+2019-12-30 14:34:22,566 [18] ERROR Search_entrancedetail - Page_Load -64 
+ System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Search_entrancedetail.Page_Load(Object sender, EventArgs e) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\entrancedetail.aspx.cs:line 51 
+ 
+2019-12-30 14:34:30,115 [43] ERROR Search_entrancedetail - Page_Load -64 
+ System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Search_entrancedetail.Page_Load(Object sender, EventArgs e) in h:\Ankita\28-12-2019 CDF Latest\CDF-Dashboard2017\Search\entrancedetail.aspx.cs:line 51 
+ 

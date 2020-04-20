@@ -1,0 +1,21 @@
+2020-03-03 11:13:53,421 [13] ERROR Admin_ExportData_training_batches - BindGridView -134 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\App_Code\db_context.cs:line 294
+   at Admin_ExportData_training_batches.BindGridView() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\Admin\ExportData\training-batches.aspx.cs:line 127
+ClientConnectionId:b1a52065-f265-49e2-993f-fce62d596b8c
+Error Number:207,State:1,Class:16 
+ 
+2020-03-03 11:23:49,617 [21] ERROR Admin_ExportData_training_batches - BindGridView -134 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\App_Code\db_context.cs:line 294
+   at Admin_ExportData_training_batches.BindGridView() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\Admin\ExportData\training-batches.aspx.cs:line 127
+ClientConnectionId:b1a52065-f265-49e2-993f-fce62d596b8c
+Error Number:207,State:1,Class:16 
+ 
+2020-03-03 11:23:50,075 [28] ERROR Admin_ExportData_training_batches - BindGridView -134 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\App_Code\db_context.cs:line 294
+   at Admin_ExportData_training_batches.BindGridView() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\Admin\ExportData\training-batches.aspx.cs:line 127
+ClientConnectionId:b1a52065-f265-49e2-993f-fce62d596b8c
+Error Number:207,State:1,Class:16 
+ 

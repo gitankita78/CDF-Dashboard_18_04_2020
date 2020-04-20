@@ -1,0 +1,32 @@
+2020-02-18 10:57:31,793 [13] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-17-02-2020\CDFMaster.master.cs:line 37 
+ 
+2020-02-18 11:21:19,312 [25] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-17-02-2020\CDFMaster.master.cs:line 37 
+ 
+2020-02-18 11:28:53,134 [5] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-17-02-2020\CDFMaster.master.cs:line 37 
+ 
+2020-02-18 11:32:39,247 [11] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-17-02-2020\CDFMaster.master.cs:line 37 
+ 

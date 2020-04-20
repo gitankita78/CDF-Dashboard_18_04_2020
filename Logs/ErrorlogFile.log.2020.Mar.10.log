@@ -1,0 +1,243 @@
+2020-03-10 12:31:01,009 [51] ERROR logout - Page_Load -23 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at db_context.ExecNonQuery(String s_query) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\App_Code\db_context.cs:line 134
+   at logout.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\logout.aspx.cs:line 18 
+ 
+2020-03-10 12:31:38,844 [55] ERROR login - btn_login_Click -140 
+ System.Runtime.InteropServices.COMException (0x80070006): The handle is invalid. (Exception from HRESULT: 0x80070006 (E_HANDLE))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at login.btn_login_Click(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\login.aspx.cs:line 45 
+ 
+2020-03-10 12:31:43,156 [55] ERROR login - btn_login_Click -140 
+ System.Runtime.InteropServices.COMException (0x80070006): The handle is invalid. (Exception from HRESULT: 0x80070006 (E_HANDLE))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at login.btn_login_Click(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\login.aspx.cs:line 45 
+ 
+2020-03-10 12:31:57,370 [6] ERROR login - btn_login_Click -140 
+ System.Runtime.InteropServices.COMException (0x80070006): The handle is invalid. (Exception from HRESULT: 0x80070006 (E_HANDLE))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at login.btn_login_Click(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\login.aspx.cs:line 45 
+ 
+2020-03-10 12:32:33,442 [51] ERROR login - btn_login_Click -140 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at login.btn_login_Click(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\login.aspx.cs:line 136 
+ 
+2020-03-10 12:33:28,496 [51] ERROR home1 - newsFeed -1124 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.newsFeed() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 1120 
+ 
+2020-03-10 12:33:31,748 [51] ERROR home1 - dheyaUpdates -1156 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.dheyaUpdates() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 1151 
+ 
+2020-03-10 12:33:35,244 [51] ERROR home1 - Page_Load -168 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 159 
+ 
+2020-03-10 12:33:39,607 [51] ERROR home1 - GetChartData -945 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at home1.GetChartData() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 913 
+ 
+2020-03-10 12:35:04,117 [51] ERROR home1 - newsFeed -1124 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.newsFeed() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 1120 
+ 
+2020-03-10 12:35:05,577 [51] ERROR home1 - dheyaUpdates -1156 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.dheyaUpdates() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 1151 
+ 
+2020-03-10 12:35:08,759 [51] ERROR home1 - Page_Load -168 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 159 
+ 
+2020-03-10 12:35:51,001 [51] ERROR login - btn_login_Click -140 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at login.btn_login_Click(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\login.aspx.cs:line 136 
+ 
+2020-03-10 12:40:58,266 [50] ERROR home1 - newsFeed -1124 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.newsFeed() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 1120 
+ 
+2020-03-10 12:41:00,163 [50] ERROR home1 - dheyaUpdates -1156 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.dheyaUpdates() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 1151 
+ 
+2020-03-10 12:41:04,287 [50] ERROR home1 - Page_Load -168 
+ System.Threading.SemaphoreFullException: Adding the specified count to the semaphore would cause it to exceed its maximum count.
+   at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at System.Data.SqlClient.SqlConnection.Dispose(Boolean disposing)
+   at System.ComponentModel.Component.Dispose()
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 159 
+ 
+2020-03-10 12:41:07,752 [50] ERROR home1 - GetChartData -949 
+ System.Runtime.InteropServices.COMException (0x80070006): The handle is invalid. (Exception from HRESULT: 0x80070006 (E_HANDLE))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at home1.GetChartData() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\home1.aspx.cs:line 917 
+ 
+2020-03-10 12:41:28,977 [51] ERROR login - btn_login_Click -140 
+ System.Runtime.InteropServices.COMException (0x80070006): The handle is invalid. (Exception from HRESULT: 0x80070006 (E_HANDLE))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at login.btn_login_Click(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\login.aspx.cs:line 45 
+ 
+2020-03-10 12:41:31,851 [50] ERROR login - btn_login_Click -140 
+ System.Runtime.InteropServices.COMException (0x80070006): The handle is invalid. (Exception from HRESULT: 0x80070006 (E_HANDLE))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at login.btn_login_Click(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-27-02-2020\login.aspx.cs:line 45 
+ 
