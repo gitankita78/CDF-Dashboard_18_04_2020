@@ -1,0 +1,51 @@
+2020-05-12 12:39:05,246 [11] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\CDFMaster.master.cs:line 37 
+ 
+2020-05-12 12:52:37,986 [10] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\CDFMaster.master.cs:line 37 
+ 
+2020-05-12 13:04:40,780 [24] ERROR Admin_final_cdf - BindGridView -483 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'where'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_final_cdf.BindGridView() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\final-cdf.aspx.cs:line 476
+ClientConnectionId:e5c0166b-921e-473e-9630-098708e47826
+Error Number:156,State:1,Class:15 
+ 
+2020-05-12 13:04:47,006 [26] ERROR Admin_final_cdf - BindGridView -483 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'where'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_final_cdf.BindGridView() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\final-cdf.aspx.cs:line 476
+ClientConnectionId:e5c0166b-921e-473e-9630-098708e47826
+Error Number:156,State:1,Class:15 
+ 
+2020-05-12 13:04:55,392 [24] ERROR Admin_final_cdf - BindGridView -483 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'where'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_final_cdf.BindGridView() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\final-cdf.aspx.cs:line 476
+ClientConnectionId:e5c0166b-921e-473e-9630-098708e47826
+Error Number:156,State:1,Class:15 
+ 
+2020-05-12 13:05:26,506 [26] ERROR Admin_final_cdf - BindGridView -483 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'where'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_final_cdf.BindGridView() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\final-cdf.aspx.cs:line 476
+ClientConnectionId:e5c0166b-921e-473e-9630-098708e47826
+Error Number:156,State:1,Class:15 
+ 
+2020-05-12 13:05:33,372 [26] ERROR Admin_final_cdf - BindGridView -483 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'where'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_final_cdf.BindGridView() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\final-cdf.aspx.cs:line 476
+ClientConnectionId:e5c0166b-921e-473e-9630-098708e47826
+Error Number:156,State:1,Class:15 
+ 

@@ -332,7 +332,7 @@ public partial class Admin_final_cdf : System.Web.UI.Page
              "LEFT OUTER JOIN tblUserDetails AS B ON A.uId = B.uId " +
              "LEFT OUTER JOIN tblCitiesMaster AS C ON A.cityid = C.id " +
              "LEFT OUTER JOIN tblRelation AS R ON A.uId = R.uId  " +
-             "LEFT OUTER JOIN tblUserProductMaster AS p ON A.uId = p.uId and p.prodid = 7 where cdfApproved='APPROVED' and userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "' ";
+             "LEFT OUTER JOIN tblUserProductMaster AS p ON A.uId = p.uId and p.prodid = 7 where cdfApproved='APPROVED' and userStatus!='TERMINATED' and userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "' ";
 
             // USER STATUS
             if (ddl_userStatus.SelectedValue != "Select")

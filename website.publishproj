@@ -18,7 +18,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{bc1da9f1-638d-4964-9ad7-ef57b8fcc267}</ProjectGuid>
     <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
-    <SourceWebVirtualPath>/CDF-Dashboard_14_04_2020(excutivetask)</SourceWebVirtualPath>
+    <SourceWebVirtualPath>/CDF-Dashboard_18_04_2020</SourceWebVirtualPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SourceWebProject>
     </SourceWebProject>

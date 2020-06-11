@@ -194,7 +194,7 @@ public partial class Admin_ExportData_final_cdf : System.Web.UI.Page
              "FROM(select u.uId, ISNULL(SUM(amount),0) as TotalPayment from tblPayment as p " +
              "Right Outer Join tblUserMaster as u on p.uId = u.uId and userSource='DHEYA-CDF' " +
              "group by u.uId,u.userTypeId having u.userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "') AS s " +
-             "Left Outer Join(select * from tblUserMaster where userSource='DHEYA-CDF' and userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "' ";
+             "Left Outer Join(select * from tblUserMaster where userSource='DHEYA-CDF' and userStatus!='TERMINATED' and userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "' ";
 
              if (ddl_userStatus.SelectedValue != "Select")
             {
@@ -491,7 +491,7 @@ public partial class Admin_ExportData_final_cdf : System.Web.UI.Page
             strcmd += " ) AS A on A.uId = s.uId LEFT OUTER JOIN tblUserDetails AS B ON A.uId = B.uId " +
              "LEFT OUTER JOIN tblCitiesMaster AS C ON A.cityid = C.id " +
              "LEFT OUTER JOIN tblRelation AS R ON A.uId = R.uId  " +
-             "LEFT OUTER JOIN tblUserProductMaster AS p ON A.uId = p.uId and p.prodid = 7 where cdfApproved='APPROVED' and userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "' ";
+             "LEFT OUTER JOIN tblUserProductMaster AS p ON A.uId = p.uId and p.prodid = 7 where cdfApproved='APPROVED' and userStatus!='TERMINATED' and userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "' ";
 
             //if text box txt_name is not empty then like operator will be find data with avlible text name
             if (txt_name.Text != "")

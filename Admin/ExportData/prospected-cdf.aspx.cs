@@ -209,7 +209,7 @@ public partial class Admin_ExportData_prospected_cdf : System.Web.UI.Page
              "LEFT OUTER JOIN tblUserDetails AS B ON A.uId = B.uId " +
              "LEFT OUTER JOIN tblCitiesMaster AS C ON A.cityid = C.id " +
              "LEFT OUTER JOIN tblRelation AS R ON A.uId = R.uId  " +
-             "LEFT OUTER JOIN tblUserProductMaster AS p ON A.uId = p.uId and p.prodid = 7 where cdfApproved is null and userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "' ";
+             "LEFT OUTER JOIN tblUserProductMaster AS p ON A.uId = p.uId and p.prodid = 7 where cdfApproved is null and userStatus!='TERMINATED' and userTypeId = '" + ConfigurationManager.AppSettings["userTypeId"] + "' ";
 
             //if text box txt_name is not empty then like operator will be find data with avlible text name
             if (txt_name.Text != "")
