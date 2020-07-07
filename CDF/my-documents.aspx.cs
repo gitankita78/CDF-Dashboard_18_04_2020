@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.IO;
 
 public partial class CDF_my_documents : System.Web.UI.Page
 {
@@ -97,5 +98,276 @@ public partial class CDF_my_documents : System.Web.UI.Page
         }
         else
         { }
+    }
+
+    protected void btn_dwn1_Click(object sender, EventArgs e)
+    {
+        //Response.Write("click event");
+
+        //finding path of img upload
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            //
+            string query_docstatus = "select cdf_idcard From tblUserDetails where uId='" + Session["uid"].ToString() + "'";
+            SqlCommand cmd = new SqlCommand(query_docstatus, connection);
+            SqlDataReader dr = cmd.ExecuteReader();
+            //Check if table has rows for required query
+            if (dr.HasRows)
+            {
+              dr.Read();
+             string idname = Convert.ToString(dr["cdf_idcard"]);
+                if(idname!="")
+                {
+                    DownloadFile(idname, true);
+                }
+                else
+                {
+                    lblmsg.Text="ID card not uploaded";
+                }
+             
+
+
+            }
+            else
+            {
+                Response.Write("no file");
+
+            }
+        }
+    }
+
+    private void DownloadFile(string fname, bool forceDownload)
+    { 
+        string path = Server.MapPath(ConfigurationManager.AppSettings["CDF_Idcard"] + fname);
+
+        //test_doc
+        //string path = Server.MapPath("~/"+ ConfigurationManager.AppSettings["docfolderpath_test"] + fname);
+
+
+        string name = Path.GetFileName(path);
+        string ext = Path.GetExtension(path);
+        string type = "";
+        // set known types based on file extension  
+        if (ext != null)
+        {
+            switch (ext.ToLower())
+            {
+                case ".htm":
+                case ".html":
+                    type = "text/HTML";
+                    break;
+
+                case ".txt":
+                    type = "text/plain";
+                    break;
+
+                case ".doc":
+                case ".rtf":
+                    type = "Application/msword";
+                    break;
+
+                case ".pdf":
+                    type = "Application/pdf";
+                    break;
+
+                case ".png":
+                    type = "image/png";
+                    break;
+
+                case ".jpg":
+                    type = "image/jpg";
+                    break;
+
+
+            }
+        }
+        if (forceDownload)
+        {
+            Response.AppendHeader("content-disposition", "attachment; filename=" + name.Replace(' ', '_'));
+        }
+        if (type != "")
+            Response.ContentType = type;
+        Response.WriteFile(path);
+        Response.End();
+    }
+
+    protected void btn_dwn2_Click(object sender, EventArgs e)
+    {
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            //
+            string query_docstatus = "select cdf_certif From tblUserDetails where uId='" + Session["uid"].ToString() + "'";
+            SqlCommand cmd = new SqlCommand(query_docstatus, connection);
+            SqlDataReader dr = cmd.ExecuteReader();
+            //Check if table has rows for required query
+            if (dr.HasRows)
+            {
+                dr.Read();
+                string idname = Convert.ToString(dr["cdf_certif"]);
+                if (idname != "")
+                {
+                    DownloadFile_1(idname, true);
+                }
+                else
+                {
+                    lblmsg.Text = "Certificate not uploaded";
+                }
+
+
+
+            }
+            else
+            {
+                Response.Write("no file");
+
+            }
+        }
+    }
+
+    private void DownloadFile_1(string fname, bool forceDownload)
+    {
+        string path = Server.MapPath(ConfigurationManager.AppSettings["CDF_certif"] + fname);
+
+        //test_doc
+        //string path = Server.MapPath("~/"+ ConfigurationManager.AppSettings["docfolderpath_test"] + fname);
+
+
+        string name = Path.GetFileName(path);
+        string ext = Path.GetExtension(path);
+        string type = "";
+        // set known types based on file extension  
+        if (ext != null)
+        {
+            switch (ext.ToLower())
+            {
+                case ".htm":
+                case ".html":
+                    type = "text/HTML";
+                    break;
+
+                case ".txt":
+                    type = "text/plain";
+                    break;
+
+                case ".doc":
+                case ".rtf":
+                    type = "Application/msword";
+                    break;
+
+                case ".pdf":
+                    type = "Application/pdf";
+                    break;
+
+                case ".png":
+                    type = "image/png";
+                    break;
+
+                case ".jpg":
+                    type = "image/jpg";
+                    break;
+
+
+            }
+        }
+        if (forceDownload)
+        {
+            Response.AppendHeader("content-disposition", "attachment; filename=" + name.Replace(' ', '_'));
+        }
+        if (type != "")
+            Response.ContentType = type;
+        Response.WriteFile(path);
+        Response.End();
+    }
+
+    protected void btn_dwn3_Click(object sender, EventArgs e)
+    {
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+            //
+            string query_docstatus = "select cdf_visiting_card From tblUserDetails where uId='" + Session["uid"].ToString() + "'";
+            SqlCommand cmd = new SqlCommand(query_docstatus, connection);
+            SqlDataReader dr = cmd.ExecuteReader();
+            //Check if table has rows for required query
+            if (dr.HasRows)
+            {
+                dr.Read();
+                string idname = Convert.ToString(dr["cdf_visiting_card"]);
+                if (idname != "")
+                {
+                    DownloadFile_2(idname, true);
+                }
+                else
+                {
+                    lblmsg.Text = "Visiting card not uploaded";
+                }
+
+
+
+            }
+            else
+            {
+                Response.Write("no file");
+
+            }
+        }
+
+    }
+
+    private void DownloadFile_2(string fname, bool forceDownload)
+    {
+        string path = Server.MapPath(ConfigurationManager.AppSettings["CDF_visit"] + fname);
+
+        //test_doc
+        //string path = Server.MapPath("~/"+ ConfigurationManager.AppSettings["docfolderpath_test"] + fname);
+
+
+        string name = Path.GetFileName(path);
+        string ext = Path.GetExtension(path);
+        string type = "";
+        // set known types based on file extension  
+        if (ext != null)
+        {
+            switch (ext.ToLower())
+            {
+                case ".htm":
+                case ".html":
+                    type = "text/HTML";
+                    break;
+
+                case ".txt":
+                    type = "text/plain";
+                    break;
+
+                case ".doc":
+                case ".rtf":
+                    type = "Application/msword";
+                    break;
+
+                case ".pdf":
+                    type = "Application/pdf";
+                    break;
+
+                case ".png":
+                    type = "image/png";
+                    break;
+
+                case ".jpg":
+                    type = "image/jpg";
+                    break;
+
+
+            }
+        }
+        if (forceDownload)
+        {
+            Response.AppendHeader("content-disposition", "attachment; filename=" + name.Replace(' ', '_'));
+        }
+        if (type != "")
+            Response.ContentType = type;
+        Response.WriteFile(path);
+        Response.End();
     }
 }

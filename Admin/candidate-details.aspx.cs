@@ -1301,5 +1301,171 @@ public partial class candidatedetails : System.Web.UI.Page
     //    string StrQuerytrainingBatch = "select id,batchName from tblTrainingBatch where date < (SWITCHOFFSET(SYSDATETIMEOFFSET(), '+05:30'))  or (cdfLevel = '" + Convert.ToInt32(ddl_cdfLevel.SelectedValue) + "' or cdfLevel = null)  order by id desc";
     //    dbContext.BindDropDownlist(StrQuerytrainingBatch, ref ddl_trainingBatch);
     //}
-    
+
+
+    //fileupload
+   
+
+    //protected void Button1_Click1(object sender, EventArgs e)
+    //{
+    //    Response.Write("click");
+
+        //try
+        //{
+        //    // string email = Session["dheyaEmail"].ToString();
+        //    string u_id = Request.QueryString["id"].ToString();
+        //    if (file_image.PostedFile.ContentLength < 2097152) // 2 MB 1024*KB of file size
+        //    {
+        //        //formal_Image Upload code with rename in user emailid+_formal_+id
+        //        string img = file_image.FileName;
+        //        img = img.Substring(img.LastIndexOf('.'));
+        //        //string imgfile = email + "_formal_" + Session["uid"].ToString() + img;
+        //        string imgfile = "_IdCard_" + u_id + img;
+        //        file_image.PostedFile.SaveAs(Server.MapPath(ConfigurationManager.AppSettings["CDF_Idcard"].ToString() + imgfile));
+
+
+        //        // update data in table tblUserDetails for CDF-PostRegistration
+        //        string str = "update tblUserDetails set cdf_idcard = '" + imgfile.ToString() + "' where uId = '" + u_id + "'";
+        //        int i = dbContext.ExecNonQuery(str);
+        //        lblmsg.Visible = true;
+        //        lblmsg.Attributes["class"] = "alert alert-success";
+        //        lblmsg.InnerText = "Successfully uploaded your image";
+        //    }
+        //    else
+        //    {
+        //        lblmsg.Visible = true;
+        //        lblmsg.Attributes["class"] = "alert alert-danger";
+        //        lblmsg.InnerText = "Selected image file size is more than 1 MB. So, please upload it again with less than 1 MB size.";
+        //    }
+        //}
+        //catch (Exception ex)
+        //{
+        //    Log.Error(ex);
+        //}
+
+    //}
+
+
+
+
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        //Response.Write("onload");
+
+        try
+        {
+            // string email = Session["dheyaEmail"].ToString();
+            string u_id = Request.QueryString["id"].ToString();
+            string c_name = lbl_name.Text;
+            if (file_image.PostedFile.ContentLength < 2097152) // 2 MB 1024*KB of file size
+            {
+                //formal_Image Upload code with rename in user emailid+_formal_+id
+                string img = file_image.FileName;
+                img = img.Substring(img.LastIndexOf('.'));
+                //string imgfile = email + "_formal_" + Session["uid"].ToString() + img;
+                string imgfile = "IdCard_" + u_id + "_"+ c_name + img;
+                file_image.PostedFile.SaveAs(Server.MapPath(ConfigurationManager.AppSettings["CDF_Idcard"].ToString() + imgfile));
+
+
+                // update data in table tblUserDetails for CDF-PostRegistration
+                string str = "update tblUserDetails set cdf_idcard = '" + imgfile.ToString() + "', idcard='true' where uId = '" + u_id + "'";
+                int i = dbContext.ExecNonQuery(str);
+                lblmsg.Visible = true;
+                //lblmsg.Attributes["class"] = "alert alert-success";
+                //lblmsg.InnerText = "Successfully uploaded your image";
+                lblmsg.Text= "Successfully uploaded your image";
+            }
+            else
+            {
+                lblmsg.Visible = true;
+                //lblmsg.Attributes["class"] = "alert alert-danger";
+                lblmsg.Text = "Selected image file size is more than 1 MB. So, please upload it again with less than 1 MB size.";
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex);
+        }
+
+
+    }
+
+    protected void btn_certif_Click(object sender, EventArgs e)
+    {
+        //Response.Write("clicked");
+
+        try
+        {
+            // string email = Session["dheyaEmail"].ToString();
+            string u_id = Request.QueryString["id"].ToString();
+            if (FileUpload_certificate.PostedFile.ContentLength < 2097152) // 2 MB 1024*KB of file size
+            {
+                //formal_Image Upload code with rename in user emailid+_formal_+id
+                string img = FileUpload_certificate.FileName;
+                img = img.Substring(img.LastIndexOf('.'));
+                //string imgfile = email + "_formal_" + Session["uid"].ToString() + img;
+                string imgfile = "Certif_" + u_id + "_"+ lbl_name.Text +img;
+                FileUpload_certificate.PostedFile.SaveAs(Server.MapPath(ConfigurationManager.AppSettings["CDF_certif"].ToString() + imgfile));
+
+
+                // update data in table tblUserDetails for CDF-PostRegistration
+                string str = "update tblUserDetails set cdf_certif = '" + imgfile.ToString() + "', certificate='true' where uId = '" + u_id + "'";
+                int i = dbContext.ExecNonQuery(str);
+                lblmsg_2.Visible = true;
+                //lblmsg.Attributes["class"] = "alert alert-success";
+                //lblmsg.InnerText = "Successfully uploaded your image";
+                lblmsg_2.Text = "Successfully uploaded your image";
+            }
+            else
+            {
+                lblmsg_2.Visible = true;
+                //lblmsg.Attributes["class"] = "alert alert-danger";
+                lblmsg_2.Text = "Selected image file size is more than 1 MB. So, please upload it again with less than 1 MB size.";
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex);
+        }
+    }
+
+    protected void btn_visit_card_Click(object sender, EventArgs e)
+    {
+
+        try
+        {
+            // string email = Session["dheyaEmail"].ToString();
+            string u_id = Request.QueryString["id"].ToString();
+            if (FileUpload_visiting.PostedFile.ContentLength < 2097152) // 2 MB 1024*KB of file size
+            {
+                //formal_Image Upload code with rename in user emailid+_formal_+id
+                string img = FileUpload_visiting.FileName;
+                img = img.Substring(img.LastIndexOf('.'));
+                //string imgfile = email + "_formal_" + Session["uid"].ToString() + img;
+                string imgfile = "VistiCard_" + u_id + "_"+lbl_name.Text+ img;
+                FileUpload_visiting.PostedFile.SaveAs(Server.MapPath(ConfigurationManager.AppSettings["CDF_visit"].ToString() + imgfile));
+
+
+                // update data in table tblUserDetails for CDF-PostRegistration
+                string str = "update tblUserDetails set cdf_visiting_card = '" + imgfile.ToString() + "', visitingCard='true' where uId = '" + u_id + "'";
+                int i = dbContext.ExecNonQuery(str);
+                lblmsg_3.Visible = true;
+                //lblmsg.Attributes["class"] = "alert alert-success";
+                //lblmsg.InnerText = "Successfully uploaded your image";
+                lblmsg_3.Text = "Successfully uploaded your image";
+            }
+            else
+            {
+                lblmsg_3.Visible = true;
+                //lblmsg.Attributes["class"] = "alert alert-danger";
+                lblmsg_3.Text = "Selected image file size is more than 1 MB. So, please upload it again with less than 1 MB size.";
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex);
+        }
+
+    }
 }

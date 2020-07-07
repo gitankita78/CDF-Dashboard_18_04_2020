@@ -1051,7 +1051,83 @@
                 <div id="divMsg" runat="server" class="" style="text-align: center; margin-top: 10px;">
                 </div>
             </div>
+            <%-- <asp:Button ID="Button1" runat="server" Text="Button" AutoPostBack="true"  OnClick ="Button1_Click1" />--%>
         </div>
+
+         <!--upload ID Card-->
+        <div class="x_panel" runat="server" style="margin-bottom: 80px;">
+            <div class="x_title">
+                <h2>Upload Certificates</h2>
+               
+                 <div class="clearfix"></div>
+            </div>
+             <div class="x_content">
+                <br />
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span style="font-size: medium;font-weight: 400;color: #26b99a;"> Upload CDF Id card</span>
+                        <br />
+                        <asp:FileUpload ID="file_image" runat="server" />
+                    </div>
+                </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <asp:Button ID="Button1" runat="server" CssClass="btn btn-success btn-sm" Text="Save" OnClick="Button1_Click" OnClientClick="Button1_Click()"/>
+                        
+                        <asp:Label ID="lblmsg" runat="server" Text="" style="font-size: medium;font-weight: 400;color: red;"></asp:Label>
+                    </div>
+                </div>
+                
+            </div>
+
+        
+            <!--Uploade Certificate-->
+            <div class="x_content">
+                <br />
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span style="font-size: medium;font-weight: 400;color: #26b99a;"> Upload CDF Certificate</span>
+                        <br />
+                        <asp:FileUpload ID="FileUpload_certificate" runat="server" />
+                    </div>
+                </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <asp:Button ID="btn_certif" runat="server" CssClass="btn btn-success btn-sm" Text="Save" OnClick="btn_certif_Click" OnClientClick="Button1_Click()"/>
+                        
+                        <asp:Label ID="lblmsg_2" runat="server" Text="" style="font-size: medium;font-weight: 400;color: red;"></asp:Label>
+                    </div>
+                </div>
+                
+            </div>
+
+               <!--Uploade Visiting card-->
+            <div class="x_content">
+                <br />
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span style="font-size: medium;font-weight: 400;color: #26b99a;"> Upload CDF Visiting Card</span>
+                        <br />
+                        <asp:FileUpload ID="FileUpload_visiting" runat="server" />
+                    </div>
+                </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <asp:Button ID="btn_visit_card" runat="server" CssClass="btn btn-success btn-sm" Text="Save" OnClick="btn_visit_card_Click" OnClientClick="Button1_Click()"/>
+                        
+                        <asp:Label ID="lblmsg_3" runat="server" Text="" style="font-size: medium;font-weight: 400;color: red;"></asp:Label>
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+            <%--<asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" OnClientClick="Button1_Click()"/>--%>
+        </div>
+       
+
+
         <!-- Modal Providing Dheya Email Id-->
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog modal-md">
@@ -1362,7 +1438,7 @@
             </div>
         </div>
         <asp:HiddenField ID="hid_fileName" runat="server" />
-
+       
 
     </form>
     <!-- Custom Theme Scripts -->
@@ -1427,6 +1503,12 @@
         function CandidateReportDownloadApproval_Click()
         { }
         function download_nda()
+        { }
+        function button1_click() {
+
+        }
+
+        function btn_certif_Click()
         {}
 
         function GetAgreedAmount() {

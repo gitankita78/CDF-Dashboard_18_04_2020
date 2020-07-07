@@ -38,6 +38,7 @@
                     <li><a href="https://player.vimeo.com/video/210739157" target="iframe_a">Live Session with Student</a> (Password - Dheya@123)</li>
                     <li><a href="https://player.vimeo.com/video/234472035" target="iframe_a">Dheya: Chai Pe Charcha</a> (Password - #Dheya@123)</li>
                     <li><a href="https://player.vimeo.com/video/234493699" target="iframe_a">Brief on JV process- Pitch for Schools video</a> (Password - #Dheya@1234)</li>
+                     <li><a href="https://player.vimeo.com/video/428102057" target="iframe_a">School Connect Program : Orientation Meeting for Mentors</a> (Password - #Dheya@123)</li>
 <%--                    <li><a href="https://player.vimeo.com/video/244986376" target="iframe_a">Market outreach program</a></li>
                     <li><a href="https://player.vimeo.com/video/245323798" target="iframe_a">Institutional Connect: </a> (Password - Dheya@123)</li>--%>
                 </ul>

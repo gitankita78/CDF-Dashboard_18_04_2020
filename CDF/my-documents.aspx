@@ -46,6 +46,7 @@
                                     </td>
                                     <td><strong>Status</strong>
                                     </td>
+                                    <td><strong>Download</strong> </td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -55,12 +56,18 @@
                                     <td>
                                         <asp:Label ID="lbl_idcard" runat="server"></asp:Label>
                                     </td>
+                                    <td>
+                                        <asp:Button ID="btn_dwn1" runat="server" Text="Download" OnClick="btn_dwn1_Click" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>
                                         <asp:Label ID="Label2" runat="server" Text="Certificate"></asp:Label></td>
                                     <td>
                                         <asp:Label ID="lbl_certificate" runat="server"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:Button ID="btn_dwn2" runat="server" Text="Download" OnClick="btn_dwn2_Click" />
                                     </td>
                                 </tr>
                                 <tr>
@@ -69,6 +76,10 @@
                                     <td>
                                         <asp:Label ID="lbl_visitingcard" runat="server"></asp:Label>
                                     </td>
+                                    <td>
+                                        <asp:Button ID="btn_dwn3" runat="server" Text="Download" OnClick="btn_dwn3_Click" />
+                                    </td>
+
                                 </tr>
                                 <tr>
                                     <td>
@@ -76,6 +87,8 @@
                                     <td>
                                         <asp:Label ID="lbl_ndacopy" runat="server"></asp:Label>
                                     </td>
+                                    <td></td>
+
                                 </tr>
                                 <tr>
                                     <td>
@@ -83,6 +96,8 @@
                                     <td>
                                         <asp:Label ID="lbl_childTest" runat="server"></asp:Label>
                                     </td>
+                                    <td></td>
+
                                 </tr>
                                 <tr>
                                     <td>
@@ -90,6 +105,8 @@
                                     <td>
                                         <asp:Label ID="lbl_childSession" runat="server"></asp:Label>
                                     </td>
+                                    <td></td>
+
                                 </tr>
                                 <tr>
                                     <td>
@@ -97,6 +114,8 @@
                                     <td>
                                         <asp:Label ID="lbl_spouseTest" runat="server"></asp:Label>
                                     </td>
+                                    <td></td>
+
                                 </tr>
                                 <tr>
                                     <td>
@@ -104,9 +123,12 @@
                                     <td>
                                         <asp:Label ID="lbl_shadowSessions" runat="server"></asp:Label>
                                     </td>
+                                    <td></td>
+
                                 </tr>
                             </tbody>
                         </table>
+                        <asp:Label ID="lblmsg" runat="server"  style="font-size:medium;color:red;" Text=""></asp:Label>
                     </div>
                 </div>
             </div>
