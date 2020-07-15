@@ -1,0 +1,216 @@
+2020-02-10 15:05:23,330 [13] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:4b8e0994-cc09-401f-926c-a5215fd15b97
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:10:52,454 [16] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:4b8e0994-cc09-401f-926c-a5215fd15b97
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:11:09,500 [17] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:4b8e0994-cc09-401f-926c-a5215fd15b97
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:17:42,888 [13] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:44c22d02-ef4d-45e2-9aca-107068f6150c
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:32:12,164 [19] ERROR candidatedetails - Page_Load -67 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 49 
+ 
+2020-02-10 15:32:15,212 [19] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:7ad5436a-7d4b-49c9-baf1-929f42ed68f4
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:32:56,091 [20] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:7ad5436a-7d4b-49c9-baf1-929f42ed68f4
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:37:07,484 [19] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:7ad5436a-7d4b-49c9-baf1-929f42ed68f4
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:39:36,748 [11] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:7ad5436a-7d4b-49c9-baf1-929f42ed68f4
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:43:29,075 [18] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:7ad5436a-7d4b-49c9-baf1-929f42ed68f4
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 15:47:39,355 [18] ERROR candidatedetails - load_nda -1099 
+ System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at iTextSharp.text.pdf.RandomAccessFileOrArray.ReadFully(Byte[] b, Int32 off, Int32 len)
+   at iTextSharp.text.pdf.PdfReader.GetStreamBytesRaw(PRStream stream, RandomAccessFileOrArray file)
+   at iTextSharp.text.pdf.PdfReader.GetStreamBytesRaw(PRStream stream)
+   at iTextSharp.text.pdf.PdfStamperImp.Close(Hashtable moreInfo)
+   at iTextSharp.text.pdf.PdfStamper.Close()
+   at candidatedetails.load_nda() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 1094 
+ 
+2020-02-10 15:47:39,423 [8] ERROR Admin_download - Page_Load -29 
+ System.IO.IOException: The process cannot access the file 'D:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\doc\Admin-NDA\Amay Joshi26_NDA.pdf' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.WriteFile(String filename, Boolean readIntoMemory)
+   at System.Web.HttpResponse.WriteFile(String filename)
+   at Admin_download.DownloadFile(String fname, Boolean forceDownload) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\download.aspx.cs:line 72
+   at Admin_download.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\download.aspx.cs:line 23 
+ 
+2020-02-10 15:48:32,758 [18] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:0867da3b-366c-43e5-80a3-0f7fa368f729
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 16:01:34,723 [22] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:2fbfe619-1afb-496c-9ac4-22d1d912e92e
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 16:11:06,434 [14] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:da9d62c2-077e-4954-92a9-0d55976313b8
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 16:26:13,315 [5] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:cd486c5b-4d47-49a0-818e-08e8f7b375b9
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 16:30:14,701 [11] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:cd486c5b-4d47-49a0-818e-08e8f7b375b9
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 16:36:04,684 [10] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:168e44b0-09fe-4431-bca0-cb7618bf0072
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 16:41:19,981 [6] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:82105341-e923-4fbc-b710-32a8449c8401
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 16:56:40,093 [7] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:25e1637f-7c9b-4b6b-8808-417c68bc021f
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 17:12:02,512 [9] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:257fdc4c-eb5b-4079-ba67-e9a24409ce46
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 17:26:22,917 [6] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:887e42b8-03b1-468d-860b-d6f93ca7c541
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 17:48:01,223 [7] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:88fdbd13-b7b3-46e0-9917-306ab57d7950
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 17:48:11,041 [8] ERROR candidatedetails - load_nda -1101 
+ System.IO.IOException: D:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\/Templates/NDA.pdf not found as file or resource.
+   at iTextSharp.text.pdf.RandomAccessFileOrArray..ctor(String filename, Boolean forceRead)
+   at iTextSharp.text.pdf.PdfReader..ctor(String filename, Byte[] ownerPassword)
+   at iTextSharp.text.pdf.PdfReader..ctor(String filename)
+   at candidatedetails.load_nda() in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 1071 
+ 
+2020-02-10 17:48:11,187 [7] ERROR Admin_download - Page_Load -29 
+ System.IO.FileNotFoundException: Could not find file 'D:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\doc\Admin-NDA\Amay Joshi26_NDA.pdf'.
+File name: 'D:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\doc\Admin-NDA\Amay Joshi26_NDA.pdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Web.HttpResponse.WriteFile(String filename, Boolean readIntoMemory)
+   at System.Web.HttpResponse.WriteFile(String filename)
+   at Admin_download.DownloadFile(String fname, Boolean forceDownload) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\download.aspx.cs:line 72
+   at Admin_download.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\download.aspx.cs:line 23 
+ 
+2020-02-10 17:52:08,135 [11] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:88fdbd13-b7b3-46e0-9917-306ab57d7950
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 17:53:41,786 [11] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:88fdbd13-b7b3-46e0-9917-306ab57d7950
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 18:14:23,285 [9] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:1ecb9271-fe68-4283-a5c9-6ab9881ab592
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 18:22:25,149 [15] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:a877a355-2a16-4739-a9d0-f9aaf1a5918d
+Error Number:207,State:1,Class:16 
+ 
+2020-02-10 18:45:44,030 [9] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\App_Code\db_context.cs:line 620
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:dec9f548-6653-4ade-9a92-9edacbf22cb6
+Error Number:207,State:1,Class:16 
+ 

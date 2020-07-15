@@ -1,0 +1,40 @@
+2020-02-12 11:00:14,404 [23] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\CDFMaster.master.cs:line 37 
+ 
+2020-02-12 11:25:05,822 [38] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\CDFMaster.master.cs:line 37 
+ 
+2020-02-12 12:31:57,629 [33] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\CDFMaster.master.cs:line 37 
+ 
+2020-02-12 12:35:23,488 [32] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\CDFMaster.master.cs:line 37 
+ 
+2020-02-12 12:35:36,585 [7] ERROR candidatedetails - Page_Load -67 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\candidate-details.aspx.cs:line 49 
+ 
+2020-02-12 12:35:36,982 [7] ERROR CDFMaster - Page_Load -49 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at CDFMaster.Page_Load(Object sender, EventArgs e) in d:\Ankita\Ankita\Backup_project\CDF-Dashboard-07-02-2020\Admin\admin-master.master.cs:line 16 
+ 

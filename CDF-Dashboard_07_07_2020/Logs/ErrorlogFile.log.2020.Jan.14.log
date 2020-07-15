@@ -1,0 +1,82 @@
+2020-01-14 11:56:59,289 [10] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:9aa88c69-d328-4cf3-a668-a0c5c2299b7a
+Error Number:207,State:1,Class:16 
+ 
+2020-01-14 12:07:31,896 [10] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:918e80e1-0243-4696-9291-e997ffcf8ebe
+Error Number:207,State:1,Class:16 
+ 
+2020-01-14 12:08:19,422 [10] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:918e80e1-0243-4696-9291-e997ffcf8ebe
+Error Number:207,State:1,Class:16 
+ 
+2020-01-14 12:44:24,530 [22] ERROR candidatedetails - FindCoordinates -950 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.FindCoordinates(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 928 
+ 
+2020-01-14 12:44:43,641 [22] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:8fc6a8cd-f4cb-43af-a4fc-fe525c15d36c
+Error Number:207,State:1,Class:16 
+ 
+2020-01-14 16:53:52,177 [10] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:f28dfe5d-ee95-4ba9-90c1-f5801d908aa8
+Error Number:207,State:1,Class:16 
+ 
+2020-01-14 17:04:08,679 [10] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-31-12-2019\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\Admin\candidate-details.aspx.cs:line 420
+ClientConnectionId:31e8c2a3-b85b-4e14-bd51-b5d3afbd4339
+Error Number:207,State:1,Class:16 
+ 
+2020-01-14 18:28:45,663 [10] ERROR pre_email_verification - btn_verify_Click -106 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '='.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at pre_email_verification.btn_verify_Click(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\pre\email-verification.aspx.cs:line 44
+ClientConnectionId:0ab81885-eac5-472f-bc80-6b3dc5479387
+Error Number:102,State:1,Class:15 
+ 
+2020-01-14 18:28:57,965 [64] ERROR pre_email_verification - btn_verify_Click -106 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '='.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at pre_email_verification.btn_verify_Click(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-31-12-2019\pre\email-verification.aspx.cs:line 44
+ClientConnectionId:0ab81885-eac5-472f-bc80-6b3dc5479387
+Error Number:102,State:1,Class:15 
+ 

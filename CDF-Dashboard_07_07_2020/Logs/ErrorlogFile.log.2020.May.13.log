@@ -1,0 +1,95 @@
+2020-05-13 16:30:43,819 [9] ERROR Admin_ExportData_prospected_cdf - BindGridView_filter -586 
+ System.Data.SqlClient.SqlException (0x80131904): Ambiguous column name 'email'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_ExportData_prospected_cdf.BindGridView_filter() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\prospected-cdf.aspx.cs:line 576
+ClientConnectionId:33f9021f-d670-43d7-b831-bdf79214977d
+Error Number:209,State:1,Class:16 
+ 
+2020-05-13 16:30:43,857 [9] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -432 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\prospected-cdf.aspx.cs:line 383 
+ 
+2020-05-13 16:32:50,698 [5] ERROR Admin_ExportData_prospected_cdf - BindGridView_filter -586 
+ System.Data.SqlClient.SqlException (0x80131904): Ambiguous column name 'email'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_ExportData_prospected_cdf.BindGridView_filter() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\prospected-cdf.aspx.cs:line 576
+ClientConnectionId:33f9021f-d670-43d7-b831-bdf79214977d
+Error Number:209,State:1,Class:16 
+ 
+2020-05-13 16:32:50,713 [5] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -432 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\prospected-cdf.aspx.cs:line 383 
+ 
+2020-05-13 16:34:42,837 [11] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -696 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\final-cdf.aspx.cs:line 679 
+ 
+2020-05-13 16:35:53,745 [9] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -696 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\final-cdf.aspx.cs:line 679 
+ 
+2020-05-13 16:39:30,975 [17] ERROR Admin_ExportData_final_cdf - BindGridView_filter -634 
+ System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_ExportData_final_cdf.BindGridView_filter() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\final-cdf.aspx.cs:line 624
+ClientConnectionId:33f9021f-d670-43d7-b831-bdf79214977d
+Error Number:156,State:1,Class:15 
+ 
+2020-05-13 16:39:30,994 [17] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -696 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\final-cdf.aspx.cs:line 644 
+ 
+2020-05-13 16:40:09,807 [12] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -696 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\final-cdf.aspx.cs:line 679 
+ 
+2020-05-13 16:41:44,402 [11] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -696 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\final-cdf.aspx.cs:line 679 
+ 
+2020-05-13 16:42:37,508 [11] ERROR Admin_ExportData_prospected_cdf - BindGridView_filter -586 
+ System.Data.SqlClient.SqlException (0x80131904): Ambiguous column name 'email'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_ExportData_prospected_cdf.BindGridView_filter() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\prospected-cdf.aspx.cs:line 576
+ClientConnectionId:33f9021f-d670-43d7-b831-bdf79214977d
+Error Number:209,State:1,Class:16 
+ 
+2020-05-13 16:42:37,528 [11] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -432 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\prospected-cdf.aspx.cs:line 383 
+ 
+2020-05-13 16:54:09,416 [22] ERROR Admin_ExportData_prospected_cdf - BindGridView_filter -586 
+ System.Data.SqlClient.SqlException (0x80131904): Ambiguous column name 'email'.
+   at db_context.ExecDataSet(String s_query) in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\App_Code\db_context.cs:line 294
+   at Admin_ExportData_prospected_cdf.BindGridView_filter() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\prospected-cdf.aspx.cs:line 576
+ClientConnectionId:968aac7a-3b5f-40df-ad5c-fbddc40d6b3d
+Error Number:209,State:1,Class:16 
+ 
+2020-05-13 16:54:09,446 [22] ERROR Admin_ExportData_prospected_cdf - ExportToExcel_function -432 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_ExportData_prospected_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\prospected-cdf.aspx.cs:line 383 
+ 
+2020-05-13 16:54:36,583 [19] ERROR Admin_ExportData_final_cdf - ExportToExcel_function -696 
+ System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at Admin_ExportData_final_cdf.ExportToExcel_function() in d:\Ankita\Ankita\Backup_project\NEW\CDF-Dashboard_18_04_2020\Admin\ExportData\final-cdf.aspx.cs:line 679 
+ 

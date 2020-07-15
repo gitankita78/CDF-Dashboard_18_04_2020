@@ -1,0 +1,344 @@
+2020-01-17 12:02:12,467 [21] ERROR Candidate_Previewleads - bindgrid -140 
+ System.ArgumentException: Keyword not supported.
+Parameter name: multipleactiveresultsets
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.GetOption(String key)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder..ctor(String connStr)
+   at MySql.Data.MySqlClient.MySqlConnection.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlConnection..ctor(String connectionString)
+   at Candidate_Previewleads.bindgrid() in d:\Ankita\CDF-Dashboard-16-01-2020\leads\Previewleads.aspx.cs:line 103 
+ 
+2020-01-17 12:04:07,355 [22] ERROR Candidate_Previewleads - bindgrid -140 
+ System.ArgumentException: Keyword not supported.
+Parameter name: multipleactiveresultsets
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.GetOption(String key)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlConnectionStringBuilder..ctor(String connStr)
+   at MySql.Data.MySqlClient.MySqlConnection.set_ConnectionString(String value)
+   at MySql.Data.MySqlClient.MySqlConnection..ctor(String connectionString)
+   at Candidate_Previewleads.bindgrid() in d:\Ankita\CDF-Dashboard-16-01-2020\leads\Previewleads.aspx.cs:line 103 
+ 
+2020-01-17 12:11:08,408 [23] ERROR Candidate_Previewleads - bindgrid -142 
+ System.Web.HttpException (0x80004005): A field or property with the name 'City' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Candidate_Previewleads.bindgrid() in d:\Ankita\CDF-Dashboard-16-01-2020\leads\Previewleads.aspx.cs:line 125 
+ 
+2020-01-17 12:11:25,629 [20] ERROR Candidate_Previewleads - bindgrid -142 
+ System.Web.HttpException (0x80004005): A field or property with the name 'City' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Candidate_Previewleads.bindgrid() in d:\Ankita\CDF-Dashboard-16-01-2020\leads\Previewleads.aspx.cs:line 125 
+ 
+2020-01-17 12:21:36,695 [23] ERROR Candidate_Previewleads - bindgrid -142 
+ System.Web.HttpException (0x80004005): A field or property with the name 'City' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Candidate_Previewleads.bindgrid() in d:\Ankita\CDF-Dashboard-16-01-2020\leads\Previewleads.aspx.cs:line 125 
+ 
+2020-01-17 12:21:37,871 [23] ERROR Candidate_Previewleads - bindgrid -142 
+ System.Web.HttpException (0x80004005): A field or property with the name 'City' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Candidate_Previewleads.bindgrid() in d:\Ankita\CDF-Dashboard-16-01-2020\leads\Previewleads.aspx.cs:line 125 
+ 
+2020-01-17 12:46:50,134 [9] ERROR home1 - Page_Load -164 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\home1.aspx.cs:line 93 
+ 
+2020-01-17 13:06:57,701 [6] ERROR home1 - Page_Load -164 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\home1.aspx.cs:line 93 
+ 
+2020-01-17 15:20:32,977 [26] ERROR candidatedetails - Page_Load -67 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 49 
+ 
+2020-01-17 15:45:40,532 [26] ERROR customPaymentApprove - grid_Pyment_RowCommand -137 
+ System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at customPaymentApprove.grid_Pyment_RowCommand(Object sender, GridViewCommandEventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\custom-payment-approve.aspx.cs:line 90
+ClientConnectionId:1cfe81f2-cbbe-4da7-820f-1af00e57a859
+Error Number:-1,State:0,Class:20 
+ 
+2020-01-17 15:51:33,571 [9] ERROR data_context - sendSms -120 
+ System.Net.WebException: The remote name could not be resolved: 'enterprise.smsgupshup.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at data_context.sendSms(String mob, String msg) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\data_context.cs:line 109 
+ 
+2020-01-17 15:55:51,986 [38] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:87f092dc-7c35-4ba5-b604-5b6a2ba8613e
+Error Number:207,State:1,Class:16 
+ 
+2020-01-17 15:56:30,951 [33] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:87f092dc-7c35-4ba5-b604-5b6a2ba8613e
+Error Number:207,State:1,Class:16 
+ 
+2020-01-17 16:05:56,998 [40] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:1aaec1c2-eb68-477c-8cfd-28992873f4df
+Error Number:207,State:1,Class:16 
+ 
+2020-01-17 16:05:58,429 [40] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:1aaec1c2-eb68-477c-8cfd-28992873f4df
+Error Number:207,State:1,Class:16 
+ 
+2020-01-17 16:07:51,442 [28] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:f8dff78c-5c9d-46c1-a1a1-772b95329f6e
+Error Number:207,State:1,Class:16 
+ 
+2020-01-17 16:15:57,747 [28] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:1aaec1c2-eb68-477c-8cfd-28992873f4df
+Error Number:207,State:1,Class:16 
+ 
+2020-01-17 16:33:00,511 [38] ERROR candidatedetails - Page_Load -539 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'cdfLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at candidatedetails.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 411
+ClientConnectionId:70e6d631-5e93-494f-9bbb-08fc1d629b0e
+Error Number:207,State:1,Class:16 
+ 
+2020-01-17 16:33:59,276 [38] ERROR candidatedetails - readBankDetailsData -894 
+ System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at candidatedetails.readBankDetailsData() in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\candidate-details.aspx.cs:line 876
+ClientConnectionId:70e6d631-5e93-494f-9bbb-08fc1d629b0e
+Error Number:-1,State:0,Class:20 
+ 
+2020-01-17 16:54:18,198 [5] ERROR Admin_training_batch - Page_Load -42 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'tblCDFLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\training-batch.aspx.cs:line 34
+ClientConnectionId:e4ce8c35-9c08-46e3-9c6f-9eb63a56a4bc
+Error Number:208,State:1,Class:16 
+ 
+2020-01-17 16:54:18,436 [5] ERROR Admin_training_batch - Page_Load -57 
+ System.Web.HttpException (0x80004005): A field or property with the name 'cdflevel' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\training-batch.aspx.cs:line 52 
+ 
+2020-01-17 17:02:26,217 [5] ERROR Admin_training_batch - Page_Load -42 
+ System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'tblCDFLevel'.
+   at db_context.BindDropDownlist(String StrQuery, DropDownList& ddl) in d:\Ankita\CDF-Dashboard-16-01-2020\App_Code\db_context.cs:line 617
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\training-batch.aspx.cs:line 34
+ClientConnectionId:e4ce8c35-9c08-46e3-9c6f-9eb63a56a4bc
+Error Number:208,State:1,Class:16 
+ 
+2020-01-17 17:02:26,455 [5] ERROR Admin_training_batch - Page_Load -57 
+ System.Web.HttpException (0x80004005): A field or property with the name 'cdflevel' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\training-batch.aspx.cs:line 52 
+ 
+2020-01-17 17:05:24,205 [31] ERROR Admin_training_batch - Page_Load -57 
+ System.Web.HttpException (0x80004005): A field or property with the name 'cdflevel' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\training-batch.aspx.cs:line 52 
+ 
+2020-01-17 17:09:03,388 [31] ERROR Admin_training_batch - Page_Load -57 
+ System.Web.HttpException (0x80004005): A field or property with the name 'cdflevel' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at Admin_training_batch.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\Admin\training-batch.aspx.cs:line 52 
+ 
+2020-01-17 17:42:47,653 [33] ERROR home1 - Page_Load -164 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\home1.aspx.cs:line 93 
+ 
+2020-01-17 17:42:49,992 [9] ERROR home1 - Page_Load -164 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\home1.aspx.cs:line 93 
+ 
+2020-01-17 18:09:47,582 [20] ERROR home1 - Page_Load -164 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\home1.aspx.cs:line 93 
+ 
+2020-01-17 18:15:22,301 [28] ERROR home1 - Page_Load -164 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at home1.Page_Load(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\home1.aspx.cs:line 93 
+ 
+2020-01-17 18:27:03,990 [19] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\CDFMaster.master.cs:line 37 
+ 
+2020-01-17 18:31:17,200 [19] ERROR CDFMaster - Page_Init -62 
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CDFMaster.Page_Init(Object sender, EventArgs e) in d:\Ankita\CDF-Dashboard-16-01-2020\CDFMaster.master.cs:line 37 
+ 
